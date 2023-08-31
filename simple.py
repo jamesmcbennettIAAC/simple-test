@@ -23,7 +23,7 @@ except json.JSONDecodeError:
 #from simple.json
 try:
     #typology = data['properties']['typology']
-    typology = "linear"
+    typology = "c"
     print(typology)
     typology_tree = gh.DataTree('RH_IN:typology')
     typology_tree.Append([0], [typology])
